@@ -1,0 +1,30 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_margin="20dp"
+        android:text="EMPLOYEE CODE"
+        android:textColor="#DEE3E7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/employeecode"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/search"
+        android:layout_marginLeft="150dp"
+        android:text="SEARCH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/backtomenu"
+        android:layout_marginLeft="120dp"
+        android:text="BACK TO MENU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
