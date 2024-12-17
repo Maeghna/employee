@@ -4,15 +4,18 @@
     android:gravity="center"
     android:background="@drawable/company"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
     <TextView
+        android:textStyle="italic"
         android:textColor="#0C0C0F"
         android:layout_margin="10dp"
         android:text="USERNAME"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+       android:background="#80000000"
         android:id="@+id/username"
-        android:textColor="#0C0C0F"
+        android:textColor="#FFFFFF"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -23,8 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:background="#80000000"
         android:id="@+id/password"
-        android:textColor="#0C0C0F"
+        android:textColor="#FFFFFF"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
