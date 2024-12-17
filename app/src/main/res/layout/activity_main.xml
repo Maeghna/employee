@@ -2,29 +2,29 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/black"
+    android:background="@drawable/company"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
-        android:textColor="#C2C8D0"
+        android:textColor="#0C0C0F"
         android:layout_margin="10dp"
         android:text="USERNAME"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/username"
-        android:textColor="#C2C8D0"
+        android:textColor="#0C0C0F"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
-        android:textColor="#C2C8D0"
+        android:textColor="#0C0C0F"
         android:layout_margin="10dp"
         android:text="PASSWORD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/password"
-        android:textColor="#C2C8D0"
+        android:textColor="#0C0C0F"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
